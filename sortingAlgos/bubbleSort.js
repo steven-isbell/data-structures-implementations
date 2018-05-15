@@ -1,3 +1,7 @@
+// Bubble sort, sometimes referred to as sinking sort,
+// is a simple sorting algorithm that repeatedly steps through the list to be sorted,
+// compares each pair of adjacent items and swaps them if they are in the wrong order.
+
 function bubbleSort(arr) {
   let change = false;
   let count = 1;
