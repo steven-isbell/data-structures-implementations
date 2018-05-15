@@ -1,3 +1,5 @@
+// Queue's follow a First In First Out (FIFO) paradigm.
+
 class Queue {
   constructor() {
     this.collection = [];
@@ -5,10 +7,10 @@ class Queue {
   print() {
     console.log(collection);
   }
-  add(element) {
+  enqueue(element) {
     collection.push(element);
   }
-  remove() {
+  dequeue() {
     return collection.shift();
   }
   front() {

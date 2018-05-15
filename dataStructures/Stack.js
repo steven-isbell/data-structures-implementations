@@ -2,6 +2,8 @@
 // This is an implementation that brings standard array functionality
 // into a single structure.
 
+// Stacks follow a First In Last Out (FILO) paradigm.
+
 class Stack {
   constructor() {
     this.items = [];
