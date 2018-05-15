@@ -20,13 +20,17 @@ class Stack {
     return this.items.length === 0;
   }
   printStack() {
-    let str = '';
-    for (var i = 0; i < this.items.length; i++) {
-      str += `${this.items[i]} `;
-    }
-    return str;
+    return this.items;
   }
   size() {
     return this.items.length;
   }
 }
+
+const myStack = new Stack();
+
+// myStack.push('Steven');
+// myStack.push('Jeff');
+// myStack.currentItem();
+// myStack.isEmpty();
+// myStack.size();
