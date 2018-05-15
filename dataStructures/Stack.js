@@ -10,7 +10,7 @@ class Stack {
     this.items.push(val);
   }
   pop() {
-    if (this.items.length == 0) return 'Underflow';
+    if (this.items.length == 0) return 'Stack is Empty';
     return this.items.pop();
   }
   currentItem() {
@@ -25,5 +25,8 @@ class Stack {
       str += `${this.items[i]} `;
     }
     return str;
+  }
+  size() {
+    return this.items.length;
   }
 }
