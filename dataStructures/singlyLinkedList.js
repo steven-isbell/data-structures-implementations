@@ -1,3 +1,5 @@
+// an ordered set of objects, each containing a link to the next piece of data.
+
 class Node {
   constructor(data) {
     this.data = data;
