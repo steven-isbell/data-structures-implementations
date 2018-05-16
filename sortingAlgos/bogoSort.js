@@ -1,6 +1,7 @@
 // bogosort (also permutation sort, stupid sort, slowsort, shotgun sort or monkey sort)
 // is a highly ineffective sorting function based on the generate and test paradigm.
 // The function successively generates permutations of its input until it finds one that is sorted.
+// It was designed primarily as a joke.
 
 function bogoSort(arr) {
   function isSorted(arr) {
