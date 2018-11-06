@@ -10,7 +10,6 @@ function quickSort(arr) {
 
   const left = [];
   const right = [];
-  const newArray = [];
   const pivot = arr.pop();
 
   for (let i = 0; i < arr.length; i++) {
