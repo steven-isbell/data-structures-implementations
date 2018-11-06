@@ -5,11 +5,9 @@
 // and inserts it there. It repeats until no input elements remain.
 
 function insertionSort(arr) {
-  let i;
-  let j;
-  for (i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     const value = arr[i];
-    for (j = i - 1; j > -1 && arr[j] > value; j--) {
+    for (let j = i - 1; j > -1 && arr[j] > value; j--) {
       arr[j + 1] = arr[j];
     }
     arr[j + 1] = value;
@@ -17,4 +15,4 @@ function insertionSort(arr) {
   return arr;
 }
 
-console.log(insertionSort(arr));
+// console.log(insertionSort(arr));
