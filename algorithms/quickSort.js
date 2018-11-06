@@ -21,7 +21,7 @@ function quickSort(arr) {
     }
   }
 
-  return newArray.concat(quickSort(left), pivot, quickSort(right));
+  return [...quickSort(left), pivot, ...quickSort(right)];
 }
 
 // console.log(quickSort(arr));
