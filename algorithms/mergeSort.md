@@ -1,7 +1,7 @@
-// Merge sort is a sorting technique based on divide and conquer technique.
-// Merge sort first recursively divides the array into equal halves
-// and then combines them in a sorted manner.
+## Merge Sort
 
+Merge sort is a sorting technique based on divide and conquer technique. It first recursively divides the array into equal halves and then combines them in a sorted manner.
+```
 function mergeSort(arr) {
   if (arr.length < 2) return arr;
 
@@ -31,3 +31,5 @@ function merge(left, right) {
 }
 
 // console.log(mergeSort(arr));
+```
+![Merge Sort Visualization](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
