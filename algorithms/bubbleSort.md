@@ -1,7 +1,8 @@
-// Bubble sort, sometimes referred to as sinking sort,
-// is a simple sorting algorithm that repeatedly steps through the list to be sorted,
-// compares each pair of adjacent items and swaps them if they are in the wrong order.
+## Bubble Sort
 
+
+Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order.
+```
 function bubbleSort(arr) {
   let swapped = false;
   let count = 1;
@@ -26,3 +27,6 @@ function swap(arr, i, j) {
 }
 
 // console.log(bubbleSort(arr));
+```
+
+![Alt Text](https://upload.wikimedia.org/wikipedia/commons/0/06/Bubble-sort.gif)
