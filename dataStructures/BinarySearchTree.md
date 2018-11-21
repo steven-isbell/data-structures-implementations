@@ -1,10 +1,13 @@
-// A BST is a binary tree where nodes are ordered in the following way:
-// each node contains one key (also known as data)
-// the keys in the left subtree are less then the key in its parent node
-// the keys in the right subtree are greater the key in its parent node
-// duplicate keys are not allowed
-// A BST is a root comprised of subtree after subtree
+## Binary Search Tree (BST)
 
+A BST is a binary tree where nodes are ordered in the following way:
+* each node contains one key (also known as data)
+* the keys in the left subtree are less then the key in its parent node
+* the keys in the right subtree are greater the key in its parent node
+* duplicate keys are not allowed
+
+__A BST is a root comprised of subtree after subtree__
+```
 class BST {
   constructor(value) {
     this.value = value;
@@ -66,3 +69,5 @@ bst.insert(7);
 // bst.getMax();
 
 // bst.find(6);
+```
+![Binary Search Tree Visualization](https://upload.wikimedia.org/wikipedia/commons/9/9b/Binary_search_tree_example.gif)
