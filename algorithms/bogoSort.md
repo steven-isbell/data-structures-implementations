@@ -1,8 +1,8 @@
-// bogosort (also permutation sort, stupid sort, slowsort, shotgun sort or monkey sort)
-// is a highly ineffective sorting function based on the generate and test paradigm.
-// The function successively generates permutations of its input until it finds one that is sorted.
-// It was designed primarily as a joke.
+## BogoSort
+BogoSort (also permutation sort, stupid sort, slowsort, shotgun sort or monkey sort) is a highly ineffective sorting function based on the generate and test paradigm. The function successively generates permutations of its input until it finds one that is sorted.
 
+_note: It was designed primarily as a joke._
+```
 function bogoSort(arr) {
   function isSorted(arr) {
     for (let i = 1; i < arr.length; i++) {
@@ -43,3 +43,6 @@ function bogoSort(arr) {
 }
 
 // bogoSort(arr);
+```
+![BogoSort Visualization](https://upload.wikimedia.org/wikipedia/commons/7/7b/Bogo_sort_animation.gif)
+

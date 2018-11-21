@@ -29,4 +29,4 @@ function swap(arr, i, j) {
 // console.log(bubbleSort(arr));
 ```
 
-![Alt Text](https://upload.wikimedia.org/wikipedia/commons/0/06/Bubble-sort.gif)
+![BubbleSort Visualization](https://upload.wikimedia.org/wikipedia/commons/0/06/Bubble-sort.gif)
