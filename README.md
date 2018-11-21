@@ -1,2 +1,4 @@
 `./dataStructures` includes JavaScript implementations for common data structures.
-`./sortingAlgos` includes JavaScript implementations for common sorting algorithms.
+`./algorithms` includes JavaScript implementations for common algorithms.
+
+Pull Requests with additional data structures and algorithms (JavaScript only please) are appreciated!
