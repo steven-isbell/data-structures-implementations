@@ -1,4 +1,4 @@
-## BogoSort
+## Bogo Sort
 BogoSort (also permutation sort, stupid sort, slowsort, shotgun sort or monkey sort) is a highly ineffective sorting function based on the generate and test paradigm. The function successively generates permutations of its input until it finds one that is sorted.
 
 _note: It was designed primarily as a joke._
