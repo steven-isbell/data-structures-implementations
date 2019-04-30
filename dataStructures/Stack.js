@@ -1,8 +1,6 @@
-// A stack can be more or less implemented using a standard JS Array.
-// This is an implementation that brings standard array functionality
-// into a single structure.
-
 // Stacks follow a First In Last Out (FILO) paradigm.
+// The most common example of a stack is the JS Callstack that tracks function invocations and resolutions
+// Can also be used to implement `undo` functionality
 
 class Stack {
   constructor() {
