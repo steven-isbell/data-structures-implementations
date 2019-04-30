@@ -1,4 +1,6 @@
 // Queue's follow a First In First Out (FIFO) paradigm.
+// Can be used when processing structured data
+// (e.g. when examining nodes in a tree, the sibling nodes can be queued for processing)
 
 class Queue {
   constructor() {
