@@ -4,32 +4,32 @@
 
 class Queue {
   constructor() {
-    this.collection = [];
+    this.items = [];
   }
   print() {
-    console.log(collection);
+    console.log(this.items);
   }
   enqueue(element) {
-    collection.push(element);
+    this.items.push(element);
   }
   dequeue() {
-    return collection.shift();
+    return this.items.shift();
   }
-  front() {
-    return collection[0];
+  peek() {
+    return this.items[0];
   }
   size() {
-    return collection.length;
+    return this.items.length;
   }
   isEmpty() {
-    return collection.length === 0;
+    return this.items.length === 0;
   }
 }
 
 const myQueue = new Queue();
 
-// myQueue.add('Steven');
-// myQueue.add('Jeff');
-// myQueue.front();
+// myQueue.enqueue('Steven');
+// myQueue.enqueue('Jeff');
+// myQueue.peek();
 // myQueue.size();
 // myQueue.isEmpty();
